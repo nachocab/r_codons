@@ -23,11 +23,11 @@ shannon.entropy <- function(x){
     -sum(x*log2(x))
 }
 
-shannon.weighted.entropy <- function(x){
-    shannon.entropy(x)
+# calculates the shannon weighted entropy for each gene
+shannon.weighted.entropy <- function(entropies, degeneracies, aa_freqs){
+    ae <- aa_freqs*entropies
+    apply(ae,1, function(x) sum(x/log2(degeneracies)))
 }
-
-
 
 my_cai <- function(af_data, w){
     sigma <- af_data %*% log(w)
