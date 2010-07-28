@@ -1,0 +1,276 @@
+sapply(a,"[]")
+sapply(a,"[")
+sapply(aminos,"[")
+aminos <- lapply(codons, function(x) aaa(translate(s2c(x))))
+sapply(aminos,"[")
+lapply(aminos,"[")
+aminos <- lapply(codons, function(x) aaa(translate(s2c(x))))
+aminos
+aminos <- sapply(codons, function(x) aaa(translate(s2c(x))))
+aminos
+aminos == "Phe"
+aminos[aminos == "Phe"]
+distinct(c(1,1,2))
+uniq(c(1,1,2))
+unique(c(1,1,2))
+unique(amignos)
+unique(aminos)
+aa_names <- unique(aminos)
+lapply(aa_names, function(x) aminos[aminos == x])
+lapply(aa_names, function(x) names(aminos[aminos == x]))
+lapply(aa_names, function(x) x=names(aminos[aminos == x]))
+lapply(aa_names, function(x) list(x=names(aminos[aminos == x])))
+sapply(aa_names, function(x) list(x=names(aminos[aminos == x])))
+apply(aa_names, function(x) list(x=names(aminos[aminos == x])))
+apply(aa_names, function(x) list(names(aminos[aminos == x])))
+sapply(aa_names, function(x) list(names(aminos[aminos == x])))
+setwd('/Users/nachocab/Code/codon services')
+aminos <- sapply(codons, function(x) aaa(translate(s2c(x)))#
+sapply(names(aminos), function(x) list(names(aminos[aminos == x])))
+aminos
+setwd('/Users/nachocab/Code/codon services')
+sapply(names(aminos), function(x) list(names(aminos[aminos == x])))
+names(aminos)
+aminos
+setwd('/Users/nachocab/Code/codon services')
+sapply(unique(aminos), function(x) list(names(aminos[aminos == x])))
+a
+list(unique(aminos))
+list(unique(aminos)=c(1))
+list(unique(aminos),c(1))
+x <- "Phe"
+a$x
+a
+x <- "phe"
+a$x
+a[x]
+setwd('/Users/nachocab/Code/codon services')
+sapply(names(aa_with_codons), function(x) shannon.entropy(genome_rf[,aa_with_codons[x]]))
+setwd('/Users/nachocab/Code/codon services')
+aa_with_codons <- sapply(unique(aminos), function(x) list(names(aminos[aminos == x])))
+setwd('/Users/nachocab/Code/codon services')
+sapply(names(aa_with_codons), function(x) shannon.entropy(genome_rf[,aa_with_codons[x]]))
+aa_with_codons[x]
+aa_with_codons["Phe"]
+genome_rf[,aa_with_codons["Phe"]]
+setwd('/Users/nachocab/Code/codon services')
+aa_with_codons <- sapply(unique(aminos), function(x) c(names(aminos[aminos == x])))
+aa_with_codons
+setwd('/Users/nachocab/Code/codon services')
+sapply(names(aa_with_codons), function(x) shannon.entropy(genome_rf[,aa_with_codons[x]]))
+aa_with_codons <- sapply(unique(aminos), function(x) c(names(aminos[aminos == x])))
+aa_with_codons
+genome_rf[,aa_with_codons["Phe"]]
+class(a$phe)
+class(aa_with_codons$Phe)
+genome_rf[,a['phe']]
+genome_rf[,a$phe]
+genome_rf[,a[['phe']]]
+setwd('/Users/nachocab/Code/codon services')
+sapply(names(aa_with_codons), function(x) shannon.entropy(genome_rf[,aa_with_codons[[x]]))
+setwd('/Users/nachocab/Code/codon services')
+sapply(names(aa_with_codons), function(x) shannon.entropy(genome_rf[,aa_with_codons[[x]]]))
+genome_rf[,aa_with_codons[["Phe"]]]
+sapply(names(aa_with_codons), function(x) shannon.entropy(genome_rf[,aa_with_codons[[x]]]))
+names(aa_with_codons)
+apply(names(aa_with_codons), function(x) shannon.entropy(genome_rf[,aa_with_codons[[x]]]))
+lapply(names(aa_with_codons), function(x) shannon.entropy(genome_rf[,aa_with_codons[[x]]]))
+shannon.entropy(genome_rf[,aa_with_codons[[names(aa_with_codons)[1]]]]))
+shannon.entropy(genome_rf[,aa_with_codons[[names(aa_with_codons)[1]]]])
+(genome_rf[,aa_with_codons[[names(aa_with_codons)[1]]]])
+setwd('/Users/nachocab/Code/codon services')
+sapply(names(aa_with_codons), function(x) apply(genome_rf[,aa_with_codons[[x]]],1,shannon.entropy))
+apply(genome_rf[,aa_with_codons[[names(aa_with_codons)[1]]]],1,shannon.entropy)
+apply(genome_rf[,aa_with_codons[[names(aa_with_codons)[2]]]],1,shannon.entropy)
+apply(genome_rf[,aa_with_codons[[names(aa_with_codons)[21]]]],1,shannon.entropy)
+setwd('/Users/nachocab/Code/codon services')
+sapply(names(aa_with_codons)[1], function(x) apply(genome_rf[,aa_with_codons[[x]]],1,shannon.entropy))
+setwd('/Users/nachocab/Code/codon services')
+sapply(names(aa_with_codons)[c(1,2)], function(x) apply(genome_rf[,aa_with_codons[[x]]],1,shannon.entropy))
+sapply(names(aa_with_codons)[c(1:21)], function(x) apply(genome_rf[,aa_with_codons[[x]]],1,shannon.entropy))
+sapply(names(aa_with_codons)[c(1:20)], function(x) apply(genome_rf[,aa_with_codons[[x]]],1,shannon.entropy))
+sapply(names(aa_with_codons)[c(1:10)], function(x) apply(genome_rf[,aa_with_codons[[x]]],1,shannon.entropy))
+sapply(names(aa_with_codons)[c(1:5)], function(x) apply(genome_rf[,aa_with_codons[[x]]],1,shannon.entropy))
+sapply(names(aa_with_codons)[c(1:6)], function(x) apply(genome_rf[,aa_with_codons[[x]]],1,shannon.entropy))
+sapply(names(aa_with_codons)[c(1:7)], function(x) apply(genome_rf[,aa_with_codons[[x]]],1,shannon.entropy))
+sapply(names(aa_with_codons)[c()], function(x) apply(genome_rf[,aa_with_codons[[x]]],1,shannon.entropy))
+sapply(names(aa_with_codons)[c(7)], function(x) apply(genome_rf[,aa_with_codons[[x]]],1,shannon.entropy))
+names(aa_with_codons)[7]
+setwd('/Users/nachocab/Code/codon services')
+sapply(names(aa_with_codons)[c(1,2)], function(x) apply(genome_rf[,aa_with_codons[[x,drop=F]]],1,shannon.entropy))
+setwd('/Users/nachocab/Code/codon services')
+sapply(names(aa_with_codons)[c(7)], function(x) apply(genome_rf[,aa_with_codons[[x,drop=F]]],1,shannon.entropy))
+h(genome_rf[,-c(aa_with_codons$Met,aa_with_codons$Trp)])
+h(genome_rf[,aa_with_codons$Trp])
+aa_with_codons$Trp
+genome_rf[,-c("tgg")]
+genome_rf[,c(-"tgg")]
+genome_rf[,-c("tgg")]
+genome_rf[,!grep("tgg")]
+genome_rf[,!grep(names(genome_rf)"tgg")]
+grep(names(genome_rf),"tgg")
+?grep
+grep("tgg", names(genome_rf))
+-grep("tgg", names(genome_rf))
+!grep("tgg", names(genome_rf))
+setwd('/Users/nachocab/Code/codon services')
+genome_rf <- genome_rf[,-grep(("ttg"|"atg"),names(genome_rf))]
+grepl("tgg", names(genome_rf))
+setwd('/Users/nachocab/Code/codon services')
+genome_rf <- genome_rf[,!grepl(("ttg"|"atg"),names(genome_rf))]
+setwd('/Users/nachocab/Code/codon services')
+genome_rf <- genome_rf[,!grepl(("ttg|atg",names(genome_rf))]
+setwd('/Users/nachocab/Code/codon services')
+genome_rf <- genome_rf[,!grepl("ttg|atg",names(genome_rf))]
+h(genome_rf)
+setwd('/Users/nachocab/Code/codon services')
+genome_rf <- genome_rf[,!grepl("tgg|atg",names(genome_rf))]
+h(genome_rf)
+dim(genome_rf)
+grepl("tgG", names(genome_rf))
+?grepl
+grepl("tgG", names(genome_rf), ignore.case=T)
+grepl("tgG", names(genome_rf), ignore.case=F)
+setwd('/Users/nachocab/Code/codon services')
+genome_rf <- genome_rf[,!grepl("tgg|atg",names(genome_rf))]#
+#
+sapply(names(aa_with_codons), function(x) apply(genome_rf[,aa_with_codons[[x,drop=F]]],1,shannon.entropy))
+h(genome_rf)
+dim(genome_rf)
+setwd('/Users/nachocab/Code/codon services')
+genome_rf <- genome_rf[,!grepl("tgg|atg",names(genome_rf))]#
+#
+codons <- colnames(genome_rf[-1])#
+aminos <- sapply(codons, function(x) aaa(translate(s2c(x)))#
+aa_with_codons <- sapply(unique(aminos), function(x) c(names(aminos[aminos == x])))#
+#
+#
+sapply(names(aa_with_codons), function(x) apply(genome_rf[,aa_with_codons[[x,drop=F]]],1,shannon.entropy))
+aa_with_codons
+colnames(genome_rf)
+codons
+aminos
+length(aminos)
+length(codons)
+setwd('/Users/nachocab/Code/codon services')
+codons <- colnames(genome_rf[-1])#
+aminos <- sapply(codons, function(x) aaa(translate(s2c(x)))
+)
+aminos
+setwd('/Users/nachocab/Code/codon services')
+genome_rf <- genome_rf[,!grepl("tgg|atg",names(genome_rf))]#
+#
+codons <- colnames(genome_rf[-1])#
+aminos <- sapply(codons, function(x) aaa(translate(s2c(x))))
+setwd('/Users/nachocab/Code/codon services')
+aa_with_codons <- sapply(unique(aminos), function(x) c(names(aminos[aminos == x])))
+setwd('/Users/nachocab/Code/codon services')
+sapply(names(aa_with_codons), function(x) apply(genome_rf[,aa_with_codons[[x,drop=F]]],1,shannon.entropy))
+setwd('/Users/nachocab/Code/codon services')
+row.names(entropies) <- row.names(genome_rf)
+setwd('/Users/nachocab/Code/codon services')
+entropies <- sapply(names(aa_with_codons), function(x) apply(genome_rf[,aa_with_codons[[x,drop=F]]],1,shannon.entropy))#
+#
+row.names(entropies) <- row.names(genome_rf)
+h(entropies)
+h(af)
+aa_with_codons$Cys
+setwd('/Users/nachocab/Code/codon services')
+codons_of_aa <- sapply(unique(aminos), function(x) c(names(aminos[aminos == x])))
+h(af[, codons_of_aa$Cys])
+h(entropies)
+setwd('/Users/nachocab/Code/codon services')
+row.names(entropies) <- row.names(genome_rf)
+h(entropies)
+setwd('/Users/nachocab/Code/codon services')
+rownames(entropies) <- rownames(genome_rf)
+h(entropies)
+h(genome_rf)
+rf
+h(rf)
+genome_rf <- read.table('data_files/lactis_bias.txt')
+h(genome_rf)
+h(rf)
+setwd('/Users/nachocab/Code/codon services')
+entropies <- cbind(genome_rf$gene, entropies)
+sh(entropies)
+tail(entropies)
+tail(af[, codons_of_aa$Tyr])
+h(genome_rf$gene)
+h(entropies)
+setwd('/Users/nachocab/Code/codon services')
+entropies <- cbind(genome_rf$gene, entropies)
+setwd('/Users/nachocab/Code/codon services')
+h(entropies)
+sh(genome_rf)
+h(genome_rf$gene)
+class(entropies)
+h(cbind(genome_rf$gene,entropies))
+h(c(genome_rf$gene,entropies))
+class(genome_rf$gene)
+setwd('/Users/nachocab/Code/codon services')
+entropies <- data.frame(gene=genome_rf$gene, entropies)
+h(entropies)
+setwd('/Users/nachocab/Code/codon services')
+entropies <- sapply(names(codons_of_aa), function(x) apply(genome_rf[,codons_of_aa[[x]]],1, shannon.entropy))
+setwd('/Users/nachocab/Code/codon services')
+entropies <- data.frame(gene=genome_rf$gene, entropies)
+setwd('/Users/nachocab/Code/codon services')
+h(entropies)
+h(af)
+h(entropies)
+h(af[, codons_of_aa$Tyr])
+h(rf[, codons_of_aa$Tyr])
+shannon.entropy(c(.215,.785))
+shannon.entropy(c(1,0))
+h(genome_rf)
+h(genome_rf[, codons_of_aa$Tyr])
+h(entropies)
+tail(genome_rf[, codons_of_aa$Tyr])
+tail(entropies)
+shannon.entropy(c(1))
+aminos
+codons_of_aa
+a <- list(a=c(1,2,3),b=c(1,2),c=c(1))
+a
+sapply(a, length)
+sapply(a, length)
+a[[length(a)==1]]
+a[length(a)==1]
+a[length(a)==1]
+a[a>1]
+a
+a[c(1,2)]
+length(a)
+sapply(a,length)
+sapply(a,function(x) x >1)
+sapply(a,function(x) length(x) >1)
+a[sapply(a,function(x) length(x) >1)]
+genome_rf <- read.data('data_files/lactis_bias.txt')
+genome_rf <- read.table('data_files/lactis_bias.txt')
+setwd('/Users/nachocab/Code/codon services')
+codons <- colnames(genome_rf[-1])#
+aminos <- sapply(codons, function(x) aaa(translate(s2c(x))))#
+codons_of_aa <- sapply(unique(aminos), function(x) c(names(aminos[aminos == x])))#
+codons_of_aa <- codons_of_aa[sapply(codons_of_aa,function(x) length(x) >1)]#
+#
+genome_entropies <- sapply(names(codons_of_aa), function(x) apply(genome_rf[,codons_of_aa[[x]]],1, shannon.entropy))#
+#
+genome_entropies <- data.frame(gene=genome_rf$gene, genome_entropies)
+h(genome_entropies)
+codons_of$Phe
+codons_of_aa$Phe
+setwd('/Users/nachocab/Code/codon services')
+source("codon_services.r")
+codons_of_aa
+codons_of <- get_codon_aa_table(genome_rf)
+setwd('/Users/nachocab/Code/codon services')
+source("codon_services.r")
+setwd('/Users/nachocab/Code/codon services')
+codons_of <- get_codon_aa_table(genome_rf)
+h(genome_rf)
+codons <- colnames(genome_rf[-1]) # aaa ... ttt#
+    aminos <- unique(sapply(codons, function(x) aaa(translate(s2c(x), trans_table)))) # Lys ... Phe#
+    # generates a list with the codons of each aa: codons_of$Phe => "ttt" "ttc"#
+    sapply(aminos, function(x) c(names(aminos[aminos == x])))
+q()
