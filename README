@@ -1,0 +1,24 @@
+I will improve the documentation if there's interest.
+
+in R
+>install.packages(c("seqinr","ggplot2","plyr", "reshape", "getopt","proto"))
+
+From command prompt, possible calls:
+Rscript codon_bias.r -i data_files/lactis_freq.txt -o data_files/lactis_bias.txt 
+--translate=1
+
+Rscript codon_cai.r -i data_files/lactis_freq.txt -o data_files/lactis_cai.txt
+
+Rscript codon_entropy.r -i data_files/lactis_bias.txt -o data_files/lactis_entropy.txt
+
+Rscript codon_weighted_entropy.r -i data_files/lactis_freq.txt -o data_files/lactis_weighted_entropy.txt
+
+Rscript codon_weighted_entropy.r -i data_files/lactis_bias.txt -o data_files/lactis_info_gain.txt
+
+Rscript codon_plot.r -i data_files/lactis_bias.txt --genes=2,3,4,5 -o genes2-3-4-5.png -w 20 --only_codons=ctt,ctc,cta,ctg,tta,ttg 
+
+Rscript codon_plot.r -i data_files/lactis_bias.txt --genes=1 -o profile_except.png -w 20 --except_codons=atg,tga 
+
+Rscript codon_plot.r -i data_files/lactis_bias.txt --genes=2,3,4,5,6,7,8,9 -o genes_bars.png -w 20 --only_codons=ctt,ctc,cta,ctg,tta,ttg --bars
+
+Rscript codon_plot.r -i data_files/lactis_bias.txt --genes=2,3,4,5,6,7,8,9 -o genes_bars.png -w 20 --only_codons=ctt,ctc,cta,ctg,tta,ttg --lines
