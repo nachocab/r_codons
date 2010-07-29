@@ -1,4 +1,4 @@
-I will improve the documentation if there's interest.
+I will improve the documentation if there's interest. Please, don't hesitate to contact me, or give me feedback. Thanks.
 
 in R
 >install.packages(c("seqinr","ggplot2","plyr", "reshape", "getopt","proto"))
